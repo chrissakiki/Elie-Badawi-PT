@@ -1,0 +1,33 @@
+.loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  z-index: 900000000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      animation: spin 2s linear infinite;
+    }
+
+    h5 {
+      font-weight: normal;
+    }
+  }
+
+  @keyframes spin {
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+}

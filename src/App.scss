@@ -1,0 +1,28 @@
+@import "animate.css";
+
+.stroke-text {
+  color: transparent;
+  font-family: Arial, Helvetica;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--primary-color);
+}
+
+.whatsapp-icon {
+  z-index: 90000000;
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #44c354;
+  display: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  @media (max-width: 760px) {
+    font-size: 50px;
+    display: block;
+  }
+  &:hover {
+    transform: translateY(-10px);
+  }
+}

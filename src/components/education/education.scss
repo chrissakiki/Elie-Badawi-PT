@@ -1,0 +1,46 @@
+.education-wrapper {
+  padding: 50px 0 30px 0;
+  .container {
+    max-width: 1220px;
+    margin: auto;
+
+    h3 {
+      font-size: 1.3rem;
+      color: var(--primary-color);
+      text-align: center;
+      font-weight: 600;
+      margin-bottom: 80px;
+    }
+
+    .logos {
+      color: #fff;
+      padding: 0 10px;
+
+      .logo {
+        img {
+          width: 150px;
+          height: 55px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  p {
+    margin-top: 70px;
+    text-align: center;
+    color: #999;
+    font-size: 1.1rem;
+
+    span {
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+  }
+  .slick-dots button:before {
+    color: White !important;
+  }
+  .slick-dots li.slick-active button:before {
+    color: white;
+  }
+}

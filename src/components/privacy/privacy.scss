@@ -1,0 +1,59 @@
+.privacy-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.603);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 15px;
+    width: 90%;
+    height: 93%;
+    z-index: 50000;
+    background: #121212;
+    color: #f8f9f7;
+    overflow-y: scroll;
+    h2 {
+      margin-bottom: 12px;
+      color: var(--primary-color);
+    }
+    h3 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: var(--primary-color);
+    }
+    p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      color: #999;
+    }
+
+    ul {
+      margin-left: 8px;
+    }
+
+    li {
+      list-style-type: disc;
+      margin-bottom: 10px;
+      color: #999;
+    }
+
+    button {
+      padding: 12px 35px;
+      border: 1px solid var(--primary-color);
+      font-size: 1rem;
+      cursor: pointer;
+      background: transparent;
+      color: var(--primary-color);
+    }
+  }
+}
